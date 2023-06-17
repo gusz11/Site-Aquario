@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+}
+
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(#2036A7, #498CDA, #fff, #fff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elipse {
+    position: fixed;
+    width: 499px;
+    height: 500px;
+    left: 1043px;
+    top: -86px;
+    border-radius: 100%;
+    background: rgba(29, 62, 177, 0.6);
+}
+
+.card-login {
+    left: 550px;
+    width: 660px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #111D5F, #1D3EB1);
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    position: fixed;
+}
+
+.content {
+    width: 30%;
+    height: 90%;
+    float: left;
+    position: absolute;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.content h2 {
+    top: 100px;
+    position: relative;
+    margin: 30px;
+    display: block;
+}
+
+.content h3 {
+    top: 150px;
+    position: relative;
+    margin: 30px;
+    left: 30px;
+}
+
+.content h4 {
+    top: 200px;
+    position: relative;
+    margin: 30px;
+    left: 30px;
+}
+
+.titulo {
+    position: relative;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 30px;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    background-color: #111D5F;
+}
+
+.titulo h1 {
+    color: white;
+}
+
+#img {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 10px;
+    right: 35px;
+    opacity: 0.85;
+}
+
+
+.voltar {
+
+    width: 10%;
+    height: 10%;
+    top: 50%;
+    left: 450px;
+    margin: 10px 0px;
+    position: absolute;
+}
+
+.voltar img {
+    border-radius: 8px;
+    transition: transform 0.5s;
+}
+
+.voltar img:hover {
+    transform: scale(1.25);
+}
+
+#voltar {
+    width: 20px;
+    height: 34px;
+}
+
+.footer {
+    position: absolute;
+    width: 100vw;
+    height: 54px;
+    bottom: 0;
+    background: #162F89;
+}
+
+.content img {
+    width: 25px;
+    height: 25px;
+    float: left;
+    right: 3px;
+    top: 0px;
+    position: relative;
+}
+
+.footercontents {
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 20px;
+    top: 20px;
+    position: relative;
+}
+
+.footercontents ul li {
+    margin-right: 40px;
+    position: relative;
+    list-style: none;
+    flex-direction: row;
+    display: inline-block;
+}
+
+.footercontents a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+}

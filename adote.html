@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Adote</title>
+    <link rel="icon" href="img/aquario.png" type="image/png">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/styleadote.css'>
+    <script src='js/script.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <main>
+        <elipse class="elipse"> </elipse>
+        <div class="main-login">
+            <div class="login-centro"></div>
+            <div class="card-login">
+                <div class="voltar">
+                    <a href="index.html"><img src="img/voltar.png"></a>
+                </div>
+                <h1>Formulário de adoção</h1>
+                <form id="form" onsubmit="return confirmarEnvio()">
+                <div class="textfield">
+                    <label for="nome">Nome <img src="img/user.png"></label>
+                    <input type="text" name="usuario" placeholder="Insira aqui" required>
+                    <label for="senha">E-Mail <img src="img/mail.png"></label required>
+                    <input type="email" name="senha" placeholder="Insira aqui" required>
+                    <label for="text">Telefone <img src="img/phone.png"></label required>
+                    <input type="number" name="senha" placeholder="Insira aqui" required>
+                    <label for="text" id="textselect">Qual peixe você quer? <img src="img/peixe.png"></label>
+                    <label for="text" id="textdata">Data de busca <img src="img/clock.png" id="clock"></label>
+                </div>
+                <div class="select">
+                <select name="adote" required>
+                    <option disabled selected value="">Escolha aqui</option>
+                    <option value="1">Tubarão</option>
+                    <option value="2">Peixe Palhaço</option>
+                    <option value="3">Golfinho</option>
+                    <option value="4">Arraia</option>
+                    <option value="5">Cavalo Marinho</option>
+                    <option value="6">Tartaruga</option>
+                </select>
+                <div class="data">
+                    <input type="date" id="data" name="data" min="" required>
+                </div>
+            </div>
+                <button class="btn-enviar">Enviar</button>
+                </form>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="https://mail.google.com" target="_blank">Em caso de dúvidas, entre em contato aqui</a></li>
+                    </ul>
+                </nav>
+    </main>
+    <footer class="footer">
+        <nav class="footercontents">
+            <ul>
+                <li>2023 TM Copywriting. All Rights Reserved.</p></li>
+                <li><a href="https://mail.google.com" target="_blank">Contato</a></li>
+                <li><p>Feito por: Gustavo Jesus</p></li>
+            </ul>
+        </nav>    
+    </footer>
+</body>
+</html>

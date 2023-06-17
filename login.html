@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Login</title>
+    <link rel="icon" href="img/aquario.png" type="image/png">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/stylelogin.css'>
+    <script src='js/script.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body>
+    <main>
+        <elipse class="elipse"> </elipse>
+        
+        <div class="main-login">
+            <div class="login-centro"></div>
+            <div class="card-login">
+                <div class="voltar">
+                    <a href="index.html"><img src="img/voltar.png"></a>
+                </div>
+                <h1>Login</h1>
+                <form id="form" onsubmit="return confirmarEnvio()">
+                <div class="textfield">
+                    <label for="usuario">Usuário <img src="img/user.png"></label>
+                    <input type="text" name="usuario" placeholder="Insira aqui" required>
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha <img src="img/cadeado.png"></label>
+                    <input type="password" name="senha" placeholder="Insira aqui" required>
+                </div>
+                <div class="checkbox">
+                <input type="checkbox" name="save" checked> <label class="labelsave">Salvar dados</label>
+                </div> 
+                <button class="btn-enviar">Enviar</button>
+            </form>
+                <div class="problemas"></div>
+                <nav class="nav">
+                     <ul>
+                         <li><a href="registro.html">Não possui uma conta? Clique aqui</a></li>
+                         <li><a href="esqueceu.html">Esqueceu sua senha?</a></li>
+                    </ul>
+                </nav>
+            </div>
+                </div>
+    </main>
+    <footer class="footer">
+        <nav class="footercontents">
+            <ul>
+                <li>2023 TM Copywriting. All Rights Reserved.</p></li>
+                <li><a href="https://mail.google.com" target="_blank">Contato</a></li>
+                <li><p>Feito por: Gustavo Jesus</p></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

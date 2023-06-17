@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Esqueceu</title>
+    <link rel="icon" href="img/aquario.png" type="image/png">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/styleesqueceu.css'>
+    <script src='js/script.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <main>
+        <elipse class="elipse"> </elipse>
+        
+        <div class="main-login">
+            <div class="login-centro"></div>
+            <div class="card-login">
+                <div class="voltar">
+                    <a href="index.html"><img src="img/voltar.png"></a>
+                </div>
+                <img src="img/question.svg" class="question">
+                <h1>Caso você tenha esquecido ou perdido sua senha, você terá que seguir os procedimentos abaixo.</h1>
+                <form id="form" onsubmit="return confirmarEnvio()">
+                <div class="textfield">
+                    <label for="usuario">Insira o seu E-Mail de login e responda o questionário que será enviado para você.</label>
+                    <input type="email" name="usuario" placeholder="Insira aqui" required>
+                </div>
+                <button class="btn-enviar">Enviar</button>
+                </form>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="https://mail.google.com" target="_blank">Em caso de dúvidas, entre em contato aqui</a></li>
+                </ul>
+            </nav>
+    </main>
+    <footer class="footer">
+        <nav class="footercontents">
+            <ul>
+                <li>2023 TM Copywriting. All Rights Reserved.</p></li>
+                <li><a href="https://mail.google.com" target="_blank">Contato</a></li>
+                <li><p>Feito por: Gustavo Jesus</p></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
